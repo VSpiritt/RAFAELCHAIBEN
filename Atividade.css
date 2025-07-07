@@ -1,17 +1,21 @@
+
+/* ESTE CÓDIGO FOI FEITO POR RAFAEL CHAIBEN, RU: 5037125. ALUNO DA UNINTER, CURSANDO ANÁLISE E DESENVOLVIMENTO DE SISTEMAS */
+/* Irão notar que a maior parte do site foi feito com fundo preto e apenas as fontes em branco e alguns destaques em roxo. Fiz isso pois gosto do design mais minimalista */
+/* Também escolhi desta maneira pois não gosto muito de sites brancos */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: black;
     color: white;
 }
-
+/* Segmento para customizar o "header"/"cabeçalho" do site */
 header {
         background-color: black;
         color: #fff;
         padding: 15px 0;
         text-align: center;
 }
-
+/* Segmento para customizar a barra de navegação */
 nav a {
         color: white;
         text-decoration: none;
@@ -19,7 +23,7 @@ nav a {
         font-weight: bold;
         cursor: pointer;
 }
-
+/* os dois segmentos abaixo customizam o alinhamento, tamaho do texto e o layout onde se encontram, customizando a margem e a borda do texto */
 .main-content {
         text-align: center;
         padding: 30px;
@@ -29,6 +33,7 @@ nav a {
         width: 200px;
         border-radius: 100px;
         margin-bottom: 15px;
+        align-content: center;
         }
 
 .section {
@@ -61,9 +66,9 @@ nav label {
 ul {
         list-style-type: disc;
         padding-left: 20px;
-        line-height: 1.8; /* ou experimente 2.0 para mais espaçamento */
+        line-height: 1.8; /* epsaçamento que determinei ser melhor para leitura sem o texto ficar amontoado */
 }
-
+/* customizando cor da fonte do primeiro texto de cada aba */
 h2 {
         color: purple;
 }
